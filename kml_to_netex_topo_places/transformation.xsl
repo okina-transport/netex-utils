@@ -13,7 +13,7 @@
                 <xsl:value-of select="$prefix"/>
             </ParticipantRef>
             <Description>
-                <xsl:value-of select="kml:kml/kml:Document/kml:Folder/kml:description"/>
+                <xsl:value-of select="kml:kml/kml:Document/kml:Folder/kmœl:description"/>
             </Description>
             <dataObjects>
                 <SiteFrame version="1">
@@ -38,9 +38,7 @@
                                 <Descriptor>
                                     <Name><xsl:value-of disable-output-escaping="yes" select="kml:ExtendedData/kml:SchemaData/kml:SimpleData[@name='nom_comple']"/></Name>
                                 </Descriptor>
-                                <placeTypes>
-                                    <TypeOfPlaceRef ref="urbanCommunity"/>
-                                </placeTypes>
+                                <TopographicPlaceType>county</TopographicPlaceType>
                                 <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2" srsName="EPSG:4326" srsDimension="2">
                                     <xsl:attribute name="gml:id">
                                         <xsl:value-of disable-output-escaping="yes" select="concat($prefix, position())"/>

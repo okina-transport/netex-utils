@@ -2,7 +2,7 @@
 <PublicationDelivery xmlns="http://www.netex.org.uk/netex"
                      xmlns:kml="http://www.opengis.net/kml/2.2"
                      xmlns:fn="http://www.w3.org/2005/xpath-functions">
-   <PublicationTimestamp>2017-12-15T16:30:21.723+01:00</PublicationTimestamp>
+   <PublicationTimestamp>2017-12-19T11:09:09.248+01:00</PublicationTimestamp>
    <ParticipantRef>OKI</ParticipantRef>
    <Description/>
    <dataObjects>
@@ -19,9 +19,7 @@
                <Descriptor>
                   <Name>CA du Grand Guéret</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -38,9 +36,7 @@
                <Descriptor>
                   <Name>CA d'Agen</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -57,9 +53,7 @@
                <Descriptor>
                   <Name>CC du Cellois, Coeur du Poitou, Mellois et du Val de Boutonne</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -76,9 +70,7 @@
                <Descriptor>
                   <Name>CC Chalosse Tursan</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -95,9 +87,7 @@
                <Descriptor>
                   <Name>CC de Ventadour - Egletons - Monédières</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -114,9 +104,7 @@
                <Descriptor>
                   <Name>CC Castillon/Pujols</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -133,9 +121,7 @@
                <Descriptor>
                   <Name>CC de Mimizan</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -152,9 +138,7 @@
                <Descriptor>
                   <Name>CC Vallée de la Dordogne et Forêt Bessède</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -171,9 +155,7 @@
                <Descriptor>
                   <Name>CC du Rouillacais</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -190,9 +172,7 @@
                <Descriptor>
                   <Name>CC Pays de Nexon Monts de Chalus</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -209,9 +189,7 @@
                <Descriptor>
                   <Name>CC du Terrassonnais en Périgord Noir Thenon Hautefort</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -228,9 +206,7 @@
                <Descriptor>
                   <Name>CC Porte Océane du Limousin</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -247,9 +223,7 @@
                <Descriptor>
                   <Name>CC Val de Charente</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -266,9 +240,7 @@
                <Descriptor>
                   <Name>CC Elan Limousin Avenir Nature</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -285,9 +257,7 @@
                <Descriptor>
                   <Name>CA du Libournais</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -304,9 +274,7 @@
                <Descriptor>
                   <Name>CC de Charente Limousine</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -323,9 +291,7 @@
                <Descriptor>
                   <Name>CC des Deux Rives</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -342,9 +308,7 @@
                <Descriptor>
                   <Name>CC du Périgord Nontronnais</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -361,9 +325,7 @@
                <Descriptor>
                   <Name>CA Royan Atlantique</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -380,9 +342,7 @@
                <Descriptor>
                   <Name>CC de l'Ile de Ré</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -399,9 +359,7 @@
                <Descriptor>
                   <Name>CC de la Vallée d'Ossau</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -418,9 +376,7 @@
                <Descriptor>
                   <Name>CC Haute-Corrèze Communauté</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -437,9 +393,7 @@
                <Descriptor>
                   <Name>CC Coeur Haute Lande</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -456,9 +410,7 @@
                <Descriptor>
                   <Name>CC la Rochefoucauld - Porte du Périgord</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -475,9 +427,7 @@
                <Descriptor>
                   <Name>CC Isle Vern Salembre en Périgord</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -494,9 +444,7 @@
                <Descriptor>
                   <Name>CC des 4b Sud Charente</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -513,9 +461,7 @@
                <Descriptor>
                   <Name>CC Albret Communauté</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -532,9 +478,7 @@
                <Descriptor>
                   <Name>CA Bergeracoise</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -551,9 +495,7 @@
                <Descriptor>
                   <Name>CC Latitude Nord Gironde</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -570,9 +512,7 @@
                <Descriptor>
                   <Name>CC de Gémozac et de la Saintonge Viticole</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -589,9 +529,7 @@
                <Descriptor>
                   <Name>CC Jalle-Eau-Bourde</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -608,9 +546,7 @@
                <Descriptor>
                   <Name>CC des Grands Lacs</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -627,9 +563,7 @@
                <Descriptor>
                   <Name>CC du Béarn des Gaves</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -646,9 +580,7 @@
                <Descriptor>
                   <Name>CA Pau Béarn Pyrénées</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -665,9 +597,7 @@
                <Descriptor>
                   <Name>CC de l'Ile d'Oléron</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -684,9 +614,7 @@
                <Descriptor>
                   <Name>CC du Secteur de Saint Loubes</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -703,9 +631,7 @@
                <Descriptor>
                   <Name>CC Lavalette Tude Dronne</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -722,9 +648,7 @@
                <Descriptor>
                   <Name>CA du Grand Cognac</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -741,9 +665,7 @@
                <Descriptor>
                   <Name>CC Médoc Estuaire</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -760,9 +682,7 @@
                <Descriptor>
                   <Name>CC Dronne et Belle</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -779,9 +699,7 @@
                <Descriptor>
                   <Name>CC du Pays de Lubersac-Pompadour</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -798,9 +716,7 @@
                <Descriptor>
                   <Name>CC Rurales de l'Entre-Deux-Mers</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -817,9 +733,7 @@
                <Descriptor>
                   <Name>CC du Haut-Poitou</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -836,9 +750,7 @@
                <Descriptor>
                   <Name>CC Médoc Atlantique</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -855,9 +767,7 @@
                <Descriptor>
                   <Name>CC Briance Sud Haute Vienne</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -874,9 +784,7 @@
                <Descriptor>
                   <Name>CC Côte Landes Nature</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -893,9 +801,7 @@
                <Descriptor>
                   <Name>CC Briance Combade</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -912,9 +818,7 @@
                <Descriptor>
                   <Name>CC de Domme- Villefranche du Périgord</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -931,9 +835,7 @@
                <Descriptor>
                   <Name>CC Porte d'Aquitaine en Pays de Serres</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -945,33 +847,12 @@
                   </gml:exterior>
                </gml:Polygon>
             </TopographicPlace>
-            <TopographicPlace version="1" id="OKI:TopographicPlace:200044014">
-               <Description>CC Creuse Grand Sud</Description>
-               <Descriptor>
-                  <Name>CC Creuse Grand Sud</Name>
-               </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
-               <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
-                            srsName="EPSG:4326"
-                            srsDimension="2"
-                            gml:id="OKI50">
-                  <gml:exterior>
-                     <gml:LinearRing>
-                        <gml:posList/>
-                     </gml:LinearRing>
-                  </gml:exterior>
-               </gml:Polygon>
-            </TopographicPlace>
             <TopographicPlace version="1" id="OKI:TopographicPlace:200067239">
                <Description>CC des Luys en Béarn</Description>
                <Descriptor>
                   <Name>CC des Luys en Béarn</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -988,9 +869,7 @@
                <Descriptor>
                   <Name>CA de la Rochelle</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -1007,9 +886,7 @@
                <Descriptor>
                   <Name>CC du Pays d'Uzerche</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -1026,9 +903,7 @@
                <Descriptor>
                   <Name>CA Mont de Marsan Agglomération</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -1045,9 +920,7 @@
                <Descriptor>
                   <Name>CC du Pays de Lauzun</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -1064,9 +937,7 @@
                <Descriptor>
                   <Name>CC Médullienne</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -1083,9 +954,7 @@
                <Descriptor>
                   <Name>CC du Cubzaguais</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -1102,9 +971,7 @@
                <Descriptor>
                   <Name>CC des Portes de Vassivière</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -1121,9 +988,7 @@
                <Descriptor>
                   <Name>CC de Montaigne Montravel et Gurson</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -1140,9 +1005,7 @@
                <Descriptor>
                   <Name>CC des Portes de l'Entre Deux Mers</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -1159,9 +1022,7 @@
                <Descriptor>
                   <Name>CC Haut Limousin en Marche</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -1178,9 +1039,7 @@
                <Descriptor>
                   <Name>CC Chénérailles, Auzances/Bellegarde et Haut Pays Marchois</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -1197,9 +1056,7 @@
                <Descriptor>
                   <Name>CC du Pays de Duras</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -1216,9 +1073,7 @@
                <Descriptor>
                   <Name>CC du Créonnais</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -1235,9 +1090,7 @@
                <Descriptor>
                   <Name>CC des Coteaux Bordelais</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -1254,9 +1107,7 @@
                <Descriptor>
                   <Name>CC du Val de Vienne</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -1273,9 +1124,7 @@
                <Descriptor>
                   <Name>CC de Lacq-Orthez</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -1292,9 +1141,7 @@
                <Descriptor>
                   <Name>CC Airvaudais-Val du Thouet</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -1311,9 +1158,7 @@
                <Descriptor>
                   <Name>CC du Val de l'Eyre</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -1330,9 +1175,7 @@
                <Descriptor>
                   <Name>CA du Pays Châtelleraudais</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -1349,9 +1192,7 @@
                <Descriptor>
                   <Name>CA Limoges Métropole</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -1368,9 +1209,7 @@
                <Descriptor>
                   <Name>CC de la Haute Saintonge</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -1387,9 +1226,7 @@
                <Descriptor>
                   <Name>CC du Civraisien en Poitou</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -1406,9 +1243,7 @@
                <Descriptor>
                   <Name>CC Maremne Adour Côte Sud</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -1425,9 +1260,7 @@
                <Descriptor>
                   <Name>CA du Grand Dax</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -1444,9 +1277,7 @@
                <Descriptor>
                   <Name>CA de Saintes</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -1463,9 +1294,7 @@
                <Descriptor>
                   <Name>CC du Pays d'Oloron et des Vallées du Haut Béarn</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -1482,9 +1311,7 @@
                <Descriptor>
                   <Name>CC Fumel Vallée du Lot</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -1501,9 +1328,7 @@
                <Descriptor>
                   <Name>CC Pays d'Orthe et Arrigans</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -1520,9 +1345,7 @@
                <Descriptor>
                   <Name>CC Isle et Crempse en Périgord</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -1539,9 +1362,7 @@
                <Descriptor>
                   <Name>CC Charente-Arnoult-Coeur de Saintonge</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -1558,9 +1379,7 @@
                <Descriptor>
                   <Name>CC du Seignanx</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -1577,9 +1396,7 @@
                <Descriptor>
                   <Name>CA du Niortais</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -1596,9 +1413,7 @@
                <Descriptor>
                   <Name>CC des Bastides Dordogne-Périgord</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -1615,9 +1430,7 @@
                <Descriptor>
                   <Name>CC Pays Dunois, Pays Sostranien, Bénévent/Grand-Bourg</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -1634,9 +1447,7 @@
                <Descriptor>
                   <Name>CC du Réolais en Sud Gironde</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -1653,9 +1464,7 @@
                <Descriptor>
                   <Name>CC Aunis Sud</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -1672,9 +1481,7 @@
                <Descriptor>
                   <Name>CA Val de Garonne Agglomération</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -1691,9 +1498,7 @@
                <Descriptor>
                   <Name>CC de la Vallée de l'homme</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -1710,9 +1515,7 @@
                <Descriptor>
                   <Name>CC du Pays Ribéracois</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -1729,9 +1532,7 @@
                <Descriptor>
                   <Name>CC des Landes d'Armagnac</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -1748,9 +1549,7 @@
                <Descriptor>
                   <Name>CA Grand-Poitiers</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -1767,9 +1566,7 @@
                <Descriptor>
                   <Name>CC de Montesquieu</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -1786,9 +1583,7 @@
                <Descriptor>
                   <Name>CA du Bocage Bressuirais</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -1805,9 +1600,7 @@
                <Descriptor>
                   <Name>CC de Parthenay-Gâtine</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -1819,33 +1612,12 @@
                   </gml:exterior>
                </gml:Polygon>
             </TopographicPlace>
-            <TopographicPlace version="1" id="OKI:TopographicPlace:200041762">
-               <Description>CA Rochefort Océan</Description>
-               <Descriptor>
-                  <Name>CA Rochefort Océan</Name>
-               </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
-               <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
-                            srsName="EPSG:4326"
-                            srsDimension="2"
-                            gml:id="OKI96">
-                  <gml:exterior>
-                     <gml:LinearRing>
-                        <gml:posList/>
-                     </gml:LinearRing>
-                  </gml:exterior>
-               </gml:Polygon>
-            </TopographicPlace>
             <TopographicPlace version="1" id="OKI:TopographicPlace:200067106">
                <Description>CA du Pays Basque</Description>
                <Descriptor>
                   <Name>CA du Pays Basque</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -1862,9 +1634,7 @@
                <Descriptor>
                   <Name>CC du Pays de Saint Yrieix</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -1881,9 +1651,7 @@
                <Descriptor>
                   <Name>CC de Portes Sud Périgord</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -1900,9 +1668,7 @@
                <Descriptor>
                   <Name>CC du Pays Loudunais</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -1919,9 +1685,7 @@
                <Descriptor>
                   <Name>CC Portes de la Creuse en Marche</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -1938,9 +1702,7 @@
                <Descriptor>
                   <Name>CC du Pays de Fénelon</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -1957,9 +1719,7 @@
                <Descriptor>
                   <Name>CC Isle Double Landais</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -1976,9 +1736,7 @@
                <Descriptor>
                   <Name>CA du Grand Angoulême</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -1995,9 +1753,7 @@
                <Descriptor>
                   <Name>CC du Pays de Lanouaille</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -2014,9 +1770,7 @@
                <Descriptor>
                   <Name>CC Xaintrie Val'dordogne</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -2033,9 +1787,7 @@
                <Descriptor>
                   <Name>CC du Bazadais</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -2052,9 +1804,7 @@
                <Descriptor>
                   <Name>CC des Vallées du Clain</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -2071,9 +1821,7 @@
                <Descriptor>
                   <Name>CC du Thouarsais</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -2090,9 +1838,7 @@
                <Descriptor>
                   <Name>CC de l'Estuaire - Canton de Saint Ciers Sur Gironde</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -2109,9 +1855,7 @@
                <Descriptor>
                   <Name>CC des Coteaux et Landes de Gascogne</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -2128,9 +1872,7 @@
                <Descriptor>
                   <Name>CC du Pays Morcenais</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -2147,9 +1889,7 @@
                <Descriptor>
                   <Name>CC du Pays Grenadois</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -2166,9 +1906,7 @@
                <Descriptor>
                   <Name>CC Ouest Limousin</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -2185,9 +1923,7 @@
                <Descriptor>
                   <Name>CC Pays de Boussac, Carrefour des Quatre Provinces, Evaux-Les-Bains/Chambon-Sur-Voueize</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -2204,9 +1940,7 @@
                <Descriptor>
                   <Name>CC Terres de Chalosse</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -2223,9 +1957,7 @@
                <Descriptor>
                   <Name>CC Sarlat-Périgord Noir</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -2242,9 +1974,7 @@
                <Descriptor>
                   <Name>CC Gartempe - Saint Pardoux</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -2261,9 +1991,7 @@
                <Descriptor>
                   <Name>CC Coeur de Charente</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -2280,9 +2008,7 @@
                <Descriptor>
                   <Name>CA du Bassin de Brive</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -2299,9 +2025,7 @@
                <Descriptor>
                   <Name>CC des Bastides en Haut Agenais Périgord</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -2318,9 +2042,7 @@
                <Descriptor>
                   <Name>CC Médoc Coeur de Presqu'ile</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -2337,9 +2059,7 @@
                <Descriptor>
                   <Name>Bordeaux Métropole</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -2356,9 +2076,7 @@
                <Descriptor>
                   <Name>CC du Pays Tarusate</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -2375,9 +2093,7 @@
                <Descriptor>
                   <Name>CC de Blaye</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -2394,9 +2110,7 @@
                <Descriptor>
                   <Name>CA du Grand Villeneuvois</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -2413,9 +2127,7 @@
                <Descriptor>
                   <Name>CC Adour Madiran</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -2432,9 +2144,7 @@
                <Descriptor>
                   <Name>CA le Grand Périgueux</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -2451,9 +2161,7 @@
                <Descriptor>
                   <Name>CA Tulle Agglo</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -2470,9 +2178,7 @@
                <Descriptor>
                   <Name>CC du Bassin d'Arcachon Nord Atlantique (Coban Atlantique)</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -2489,9 +2195,7 @@
                <Descriptor>
                   <Name>CC du Nord Est Béarn</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -2508,9 +2212,7 @@
                <Descriptor>
                   <Name>CC du Grand Saint Emilonnais</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -2527,9 +2229,7 @@
                <Descriptor>
                   <Name>CC Pays de Nay</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -2546,9 +2246,7 @@
                <Descriptor>
                   <Name>CC Coteaux et Vallées des Luys</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -2565,9 +2263,7 @@
                <Descriptor>
                   <Name>CA Bassin d'Arcachon Sud-Pôle Atlantique (Cobas)</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -2584,9 +2280,7 @@
                <Descriptor>
                   <Name>CC du Pays Foyen</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -2603,9 +2297,7 @@
                <Descriptor>
                   <Name>CC du Pays de Saint Aulaye</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -2622,9 +2314,7 @@
                <Descriptor>
                   <Name>CC du Sud Gironde</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -2641,9 +2331,7 @@
                <Descriptor>
                   <Name>CC du Confluent et des Coteaux de Prayssas</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -2660,9 +2348,7 @@
                <Descriptor>
                   <Name>CC Aunis Atlantique</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -2679,9 +2365,7 @@
                <Descriptor>
                   <Name>CC Vienne et Gartempe</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -2698,9 +2382,7 @@
                <Descriptor>
                   <Name>CC Lot et Tolzac</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -2717,9 +2399,7 @@
                <Descriptor>
                   <Name>CC du Bassin de Marennes</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -2736,9 +2416,7 @@
                <Descriptor>
                   <Name>CC de Noblat</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -2755,9 +2433,7 @@
                <Descriptor>
                   <Name>CC Vals de Saintonge</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -2774,9 +2450,7 @@
                <Descriptor>
                   <Name>CC Haut Val de Sèvre</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -2793,9 +2467,7 @@
                <Descriptor>
                   <Name>CC Ciate, Bourganeuf/Royère-De-Vassivière</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -2812,9 +2484,7 @@
                <Descriptor>
                   <Name>CC Vézère-Monédières-Millesources</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -2831,9 +2501,7 @@
                <Descriptor>
                   <Name>CC Midi Corrézien</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -2850,9 +2518,7 @@
                <Descriptor>
                   <Name>CC Val de Gâtine</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -2869,9 +2535,7 @@
                <Descriptor>
                   <Name>CC de Podensac, des Coteaux de Garonne et de Lestiac-Sur-Garonne,paillet,rions</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -2888,9 +2552,7 @@
                <Descriptor>
                   <Name>CC des Marchés du Périg Or Limousin, Thiviers-Jumilhac</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -2907,9 +2569,7 @@
                <Descriptor>
                   <Name>CC du Fronsadais</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
@@ -2926,9 +2586,7 @@
                <Descriptor>
                   <Name>CC du Pays de Villeneuve en Armagnac Landais</Name>
                </Descriptor>
-               <placeTypes>
-                  <TypeOfPlaceRef ref="urbanCommunity"/>
-               </placeTypes>
+               <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
                             srsDimension="2"
