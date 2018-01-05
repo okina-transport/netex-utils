@@ -39,63 +39,66 @@ UploadNeptuneFile(){
 
 ####################################
 # TOPO Places EPCI
-UploadNeptuneFile  "naq_topo_epci.xml" "importType=INITIAL&skipOutput=true"
+UploadNeptuneFile "naq_topo_epci.xml" "importType=INITIAL&skipOutput=true"
 
 ####################################
 # COMMUNAUTE AGGLO
 
 ##Grand Poitiers
-UploadNeptuneFile  "_VIT_shared_data.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=true&targetTopographicPlaces=OKI:TopographicPlace:200069854"
+UploadNeptuneFile "_VIT_shared_data.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=true&targetTopographicPlaces=OKI:TopographicPlace:200069854"
 #
 ##Perigueux Agglo
-UploadNeptuneFile  "_PER_shared_data.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=true&targetTopographicPlaces=OKI:TopographicPlace:200040392"
+UploadNeptuneFile "_PER_shared_data.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=true&targetTopographicPlaces=OKI:TopographicPlace:200040392"
 #
 ##Landes/Couralin
-UploadNeptuneFile  "_COU_shared_data.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=true&targetTopographicPlaces=OKI:TopographicPlace:244000675"
+UploadNeptuneFile "_COU_shared_data.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=true&targetTopographicPlaces=OKI:TopographicPlace:244000675"
 #
 ##Landes/Yego
-UploadNeptuneFile  "_YEG_shared_data.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=true"
+UploadNeptuneFile "_YEG_shared_data.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=true"
 #
 ##Bordeaux Métropole Tram
-UploadNeptuneFile  "_CUB_shared_data_tram" "importType=INITIAL&forceStopType=ONSTREET_TRAM&skipOutput=true&targetTopographicPlaces=OKI:TopographicPlace:243300316"
+UploadNeptuneFile "_CUB_shared_data_tram" "importType=INITIAL&forceStopType=ONSTREET_TRAM&skipOutput=true&targetTopographicPlaces=OKI:TopographicPlace:243300316"
 ##
 ##Bordeaux Métropole Bus
-UploadNeptuneFile  "_BME_shared_data.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=true&targetTopographicPlaces=OKI:TopographicPlace:243300316"
+UploadNeptuneFile "_BME_shared_data.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=true&targetTopographicPlaces=OKI:TopographicPlace:243300316"
 #
 ##TAC Châtellerault
-UploadNeptuneFile  "_CHL_shared_data.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=true&targetTopographicPlaces=OKI:TopographicPlace:248600413"
+UploadNeptuneFile "_CHL_shared_data.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=true&targetTopographicPlaces=OKI:TopographicPlace:248600413"
 #
 ##Cognac
-UploadNeptuneFile  "_COG_shared_data.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=true&targetTopographicPlaces=OKI:TopographicPlace:200070514"
+UploadNeptuneFile "_COG_shared_data.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=true&targetTopographicPlaces=OKI:TopographicPlace:200070514"
 #
 ##Brive
-UploadNeptuneFile  "_BRI_shared_data.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=true&targetTopographicPlaces=OKI:TopographicPlace:200043172"
+UploadNeptuneFile "_BRI_shared_data.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=true&targetTopographicPlaces=OKI:TopographicPlace:200043172"
 #
 ##Niort
-UploadNeptuneFile  "_NIO_shared_data.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=true&targetTopographicPlaces=OKI:TopographicPlace:200041317"
+UploadNeptuneFile "_NIO_shared_data.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=true&targetTopographicPlaces=OKI:TopographicPlace:200041317"
+##
+##Tulle
+UploadNeptuneFile "_TUT_shared_data.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=true&targetTopographicPlaces=OKI:TopographicPlace:241927201"
 #
 ##La Rochelle
-UploadNeptuneFile  "_YEL_shared_data.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=true"
-UploadNeptuneFile  "_RTC_shared_data.xml" "importType=MERGE&forceStopType=ONSTREET_BUS&skipOutput=true"
+UploadNeptuneFile "_YEL_shared_data.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=true"
+UploadNeptuneFile "_RTC_shared_data.xml" "importType=MERGE&forceStopType=ONSTREET_BUS&skipOutput=true"
 #
 #
 #####################################
 #
 ##Aéroport LR
-UploadNeptuneFile  "_APR_shared_data.xml" "importType=MERGE&forceStopType=ONSTREET_BUS&skipOutput=true"
+UploadNeptuneFile "_APR_shared_data.xml" "importType=MERGE&forceStopType=ONSTREET_BUS&skipOutput=true"
 #
 ##Aix/Fouras
-UploadNeptuneFile  "_FAI_shared_data.xml" "importType=INITIAL&forceStopType=FERRY_STOP&skipOutput=true"
+UploadNeptuneFile "_FAI_shared_data.xml" "importType=INITIAL&forceStopType=FERRY_STOP&skipOutput=true"
 #
 ##BAC Royan
-UploadNeptuneFile  "_BAC_shared_data.xml" "importType=MERGE&forceStopType=FERRY_STOP&skipOutput=true"
+UploadNeptuneFile "_BAC_shared_data.xml" "importType=MERGE&forceStopType=FERRY_STOP&skipOutput=true"
 #
 #
 #####################################
 ## DEPARTEMENTS
 #
 ##Transgironde
-UploadNeptuneFile  "_GIR_shared_data.xml" "importType=MERGE&forceStopType=ONSTREET_BUS&skipOutput=true"
+UploadNeptuneFile "_GIR_shared_data.xml" "importType=MERGE&forceStopType=ONSTREET_BUS&skipOutput=true"
 #
 ##CG23 Creuse
 UploadNeptuneFile "_CRE_shared_data.xml" "importType=MERGE&forceStopType=ONSTREET_BUS&skipOutput=true"
@@ -104,13 +107,13 @@ UploadNeptuneFile "_CRE_shared_data.xml" "importType=MERGE&forceStopType=ONSTREE
 UploadNeptuneFile "_VIE_shared_data.xml" "importType=MERGE&forceStopType=ONSTREET_BUS&skipOutput=true"
 #
 ##Vienne Interurbain
-UploadNeptuneFile  "_VIE_shared_data_interurbain.xml" "importType=MERGE&forceStopType=ONSTREET_BUS&skipOutput=true"
+UploadNeptuneFile "_VIE_shared_data_interurbain.xml" "importType=MERGE&forceStopType=ONSTREET_BUS&skipOutput=true"
 #
 ##Landes/XLR
 UploadNeptuneFile "_LAN_shared_data.xml" "importType=MERGE&forceStopType=ONSTREET_BUS&skipOutput=true"
 #
 ##Limousin
-UploadNeptuneFile  "_LAN_shared_data.xml" "importType=MERGE&forceStopType=ONSTREET_BUS&skipOutput=true"
+UploadNeptuneFile "_LAN_shared_data.xml" "importType=MERGE&forceStopType=ONSTREET_BUS&skipOutput=true"
 #
 ##Charente-maritime
 UploadNeptuneFile "_CHA_shared_data.xml" "importType=MERGE&forceStopType=ONSTREET_BUS&skipOutput=true"
@@ -121,5 +124,5 @@ UploadNeptuneFile "_CHA_shared_data.xml" "importType=MERGE&forceStopType=ONSTREE
 UploadNeptuneFile "_SNC_shared_data_intercites.xml" "importType=MERGE&forceStopType=RAIL_STATION&skipOutput=true"
 #
 ##SNCF / TER
-UploadNeptuneFile  "_SNC_shared_data_ter.xml" "importType=MERGE&forceStopType=RAIL_STATION&skipOutput=true"
+UploadNeptuneFile "_SNC_shared_data_ter.xml" "importType=MERGE&forceStopType=RAIL_STATION&skipOutput=true"
 #
