@@ -4,7 +4,9 @@
 # README
 #
 # ARGUMENTS TO START PROGRAM:
-# USERNAME PASSWORD
+#   USERNAME PASSWORD integ
+# or
+#   USERNAME PASSWORD local
 # ----------
 
 #GET TOKEN
@@ -13,7 +15,12 @@ TOKEN=`echo ${RESULT} | sed 's/.*access_token":"//g' | sed 's/".*//g'`;
 echo "TOKEN : " ${TOKEN};
 
 path_folder='./';
-url_tiamat='http://localhost:8585/';
+
+case "$3" in
+"integ") echo "--- INTEG UPLOAD ---" ; url_tiamat='http://localhost:8585/';;
+"local") echo "--- LOCAL UPLOAD ---" ; url_tiamat='https://entur.okina.fr/';;
+"") echo "--- NO PLATFORM PARAM ---";;
+esac
 
 # TOPO Places EPCI
 #curl -XPOST -H"Content-Type: application/xml" -H"authorization: bearer $TOKEN" -d@${path_folder}"naq_topo_epci.xml"  "${url_tiamat}services/stop_places/netex?importType=INITIAL"
