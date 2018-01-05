@@ -1,109 +1,125 @@
 #!/usr/bin/env bash
 
-# ----------
-# README
-#
-# ARGUMENTS TO START PROGRAM:
-#   USERNAME PASSWORD integ
-# or
-#   USERNAME PASSWORD local
-# ----------
+url_tiamat='https://entur.okina.fr/services/stop_places/netex?';
+url_file_hosted_server='http://naq-dev01.sysnove.net:4567/netex-data';
 
-#GET TOKEN
-RESULT=`curl --data "grant_type=password&client_id=Tiamat&username=$1&password=$2" https://auth.okina.fr/auth/realms/rutebanken/protocol/openid-connect/token`;
-TOKEN=`echo ${RESULT} | sed 's/.*access_token":"//g' | sed 's/".*//g'`;
-echo "TOKEN : " ${TOKEN};
+username="$1";
+password="$2";
+username_file_hosted_server="$3";
+password_file_hosted_server="$4";
 
-path_folder='./';
+GetToken(){
+    RESULT=`curl --data "grant_type=password&client_id=Tiamat&username="${username}"&password="${password} https://auth.okina.fr/auth/realms/rutebanken/protocol/openid-connect/token`;
+    TOKEN=`echo ${RESULT} | sed 's/.*access_token":"//g' | sed 's/".*//g'`;
+    echo && echo "TOKEN : " ${TOKEN};
+}
 
-case "$3" in
-"integ") echo "--- INTEG UPLOAD ---" ; url_tiamat='http://localhost:8585/';;
-"local") echo "--- LOCAL UPLOAD ---" ; url_tiamat='https://entur.okina.fr/';;
-"") echo "--- NO PLATFORM PARAM ---";;
-esac
+DeleteTempFolder(){
+    cd ..
+    rm -rf downloaded-files;
+}
 
+CreateTempFolder(){
+    mkdir downloaded-files;
+    cd downloaded-files;
+}
+
+UploadNeptuneFile(){
+    CreateTempFolder;
+    GetToken;
+    echo && echo "--------------- Send Neptune File: $1 ---------------" ;
+    echo "--- Download: $1 ---";
+    curl -O -u "${username_file_hosted_server}:${password_file_hosted_server}" "${url_file_hosted_server}/$1";
+    echo "--- Upload Neptune File to Tiamat: $1 ---" ;
+    curl -XPOST -H"Content-Type: application/xml" -H"authorization: bearer $TOKEN" -d@"$1" ${url_tiamat}"$2";
+    echo "--------------- Sent Neptune File successfully: $1 --" && echo;
+    DeleteTempFolder;
+}
+
+
+####################################
 # TOPO Places EPCI
-#curl -XPOST -H"Content-Type: application/xml" -H"authorization: bearer $TOKEN" -d@${path_folder}"naq_topo_epci.xml"  "${url_tiamat}services/stop_places/netex?importType=INITIAL"
+UploadNeptuneFile  "naq_topo_epci.xml" "importType=INITIAL&skipOutput=true"
 
 ####################################
 # COMMUNAUTE AGGLO
 
 ##Grand Poitiers
-#curl -XPOST -H"Content-Type: application/xml" -H"authorization: bearer $TOKEN" -d@${path_folder}"_VIT_shared_data.xml"  "${url_tiamat}services/stop_places/netex?importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=true&targetTopographicPlaces=OKI:TopographicPlace:200069854"
+UploadNeptuneFile  "_VIT_shared_data.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=true&targetTopographicPlaces=OKI:TopographicPlace:200069854"
 #
 ##Perigueux Agglo
-#curl -XPOST -H"Content-Type: application/xml" -H"authorization: bearer $TOKEN" -d@${path_folder}"_PER_shared_data.xml"  "${url_tiamat}services/stop_places/netex?importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=true&targetTopographicPlaces=OKI:TopographicPlace:200040392"
+UploadNeptuneFile  "_PER_shared_data.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=true&targetTopographicPlaces=OKI:TopographicPlace:200040392"
 #
 ##Landes/Couralin
-#curl -XPOST -H"Content-Type: application/xml" -H"authorization: bearer $TOKEN" -d@${path_folder}"_COU_shared_data.xml"  "${url_tiamat}services/stop_places/netex?importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=true&targetTopographicPlaces=OKI:TopographicPlace:244000675"
+UploadNeptuneFile  "_COU_shared_data.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=true&targetTopographicPlaces=OKI:TopographicPlace:244000675"
 #
 ##Landes/Yego
-#curl -XPOST -H"Content-Type: application/xml" -H"authorization: bearer $TOKEN" -d@${path_folder}"_YEG_shared_data.xml"  "${url_tiamat}services/stop_places/netex?importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=true"
+UploadNeptuneFile  "_YEG_shared_data.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=true"
 #
 ##Bordeaux Métropole Tram
-#curl -XPOST -H"Content-Type: application/xml" -H"authorization: bearer $TOKEN" -d@${path_folder}"_CUB_shared_data_tram.xml"  "${url_tiamat}services/stop_places/netex?importType=INITIAL&forceStopType=ONSTREET_TRAM&skipOutput=true&targetTopographicPlaces=OKI:TopographicPlace:243300316"
+UploadNeptuneFile  "_CUB_shared_data_tram" "importType=INITIAL&forceStopType=ONSTREET_TRAM&skipOutput=true&targetTopographicPlaces=OKI:TopographicPlace:243300316"
 ##
 ##Bordeaux Métropole Bus
-#curl -XPOST -H"Content-Type: application/xml" -H"authorization: bearer $TOKEN" -d@${path_folder}"_BME_shared_data.xml"  "${url_tiamat}services/stop_places/netex?importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=true&targetTopographicPlaces=OKI:TopographicPlace:243300316"
+UploadNeptuneFile  "_BME_shared_data.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=true&targetTopographicPlaces=OKI:TopographicPlace:243300316"
 #
 ##TAC Châtellerault
-#curl -XPOST -H"Content-Type: application/xml" -H"authorization: bearer $TOKEN" -d@${path_folder}"_CHL_shared_data.xml"  "${url_tiamat}services/stop_places/netex?importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=true&targetTopographicPlaces=OKI:TopographicPlace:248600413"
+UploadNeptuneFile  "_CHL_shared_data.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=true&targetTopographicPlaces=OKI:TopographicPlace:248600413"
 #
 ##Cognac
-#curl -XPOST -H"Content-Type: application/xml" -H"authorization: bearer $TOKEN" -d@${path_folder}"_COG_shared_data.xml"  "${url_tiamat}services/stop_places/netex?importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=true&targetTopographicPlaces=OKI:TopographicPlace:200070514"
+UploadNeptuneFile  "_COG_shared_data.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=true&targetTopographicPlaces=OKI:TopographicPlace:200070514"
 #
 ##Brive
-#curl -XPOST -H"Content-Type: application/xml" -H"authorization: bearer $TOKEN" -d@${path_folder}"_BRI_shared_data.xml"  "${url_tiamat}services/stop_places/netex?importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=true&targetTopographicPlaces=OKI:TopographicPlace:200043172"
+UploadNeptuneFile  "_BRI_shared_data.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=true&targetTopographicPlaces=OKI:TopographicPlace:200043172"
 #
 ##Niort
-#curl -XPOST -H"Content-Type: application/xml" -H"authorization: bearer $TOKEN" -d@${path_folder}"_NIO_shared_data.xml"  "${url_tiamat}services/stop_places/netex?importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=true&targetTopographicPlaces=OKI:TopographicPlace:200041317"
+UploadNeptuneFile  "_NIO_shared_data.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=true&targetTopographicPlaces=OKI:TopographicPlace:200041317"
 #
 ##La Rochelle
-#curl -XPOST -H"Content-Type: application/xml" -H"authorization: bearer $TOKEN" -d@${path_folder}"_YEL_shared_data.xml"  "${url_tiamat}services/stop_places/netex?importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=true"
-#curl -XPOST -H"Content-Type: application/xml" -H"authorization: bearer $TOKEN" -d@${path_folder}"_RTC_shared_data.xml"  "${url_tiamat}services/stop_places/netex?importType=MERGE&forceStopType=ONSTREET_BUS&skipOutput=true"
+UploadNeptuneFile  "_YEL_shared_data.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=true"
+UploadNeptuneFile  "_RTC_shared_data.xml" "importType=MERGE&forceStopType=ONSTREET_BUS&skipOutput=true"
 #
 #
 #####################################
 #
 ##Aéroport LR
-#curl -XPOST -H"Content-Type: application/xml" -H"authorization: bearer $TOKEN" -d@${path_folder}"_APR_shared_data.xml"  "${url_tiamat}services/stop_places/netex?importType=MERGE&forceStopType=ONSTREET_BUS&skipOutput=true"
+UploadNeptuneFile  "_APR_shared_data.xml" "importType=MERGE&forceStopType=ONSTREET_BUS&skipOutput=true"
 #
 ##Aix/Fouras
-#curl -XPOST -H"Content-Type: application/xml" -H"authorization: bearer $TOKEN" -d@${path_folder}"_FAI_shared_data.xml"  "${url_tiamat}services/stop_places/netex?importType=INITIAL&forceStopType=FERRY_STOP&skipOutput=true"
+UploadNeptuneFile  "_FAI_shared_data.xml" "importType=INITIAL&forceStopType=FERRY_STOP&skipOutput=true"
 #
 ##BAC Royan
-#curl -XPOST -H"Content-Type: application/xml" -H"authorization: bearer $TOKEN" -d@${path_folder}"_BAC_shared_data.xml"  "${url_tiamat}services/stop_places/netex?importType=MERGE&forceStopType=FERRY_STOP&skipOutput=true"
+UploadNeptuneFile  "_BAC_shared_data.xml" "importType=MERGE&forceStopType=FERRY_STOP&skipOutput=true"
 #
 #
 #####################################
 ## DEPARTEMENTS
 #
 ##Transgironde
-#curl -XPOST -H"Content-Type: application/xml" -H"authorization: bearer $TOKEN" -d@${path_folder}"_GIR_shared_data.xml"  "${url_tiamat}services/stop_places/netex?importType=MERGE&forceStopType=ONSTREET_BUS&skipOutput=true"
+UploadNeptuneFile  "_GIR_shared_data.xml" "importType=MERGE&forceStopType=ONSTREET_BUS&skipOutput=true"
 #
 ##CG23 Creuse
-#curl -XPOST -H"Content-Type: application/xml" -H"authorization: bearer $TOKEN" -d@${path_folder}"_CRE_shared_data.xml"  "${url_tiamat}services/stop_places/netex?importType=MERGE&forceStopType=ONSTREET_BUS&skipOutput=true"
+UploadNeptuneFile "_CRE_shared_data.xml" "importType=MERGE&forceStopType=ONSTREET_BUS&skipOutput=true"
 #
 ##Vienne
-#curl -XPOST -H"Content-Type: application/xml" -H"authorization: bearer $TOKEN" -d@${path_folder}"_VIE_shared_data.xml"  "${url_tiamat}services/stop_places/netex?importType=MERGE&forceStopType=ONSTREET_BUS&skipOutput=true"
+UploadNeptuneFile "_VIE_shared_data.xml" "importType=MERGE&forceStopType=ONSTREET_BUS&skipOutput=true"
 #
 ##Vienne Interurbain
-#curl -XPOST -H"Content-Type: application/xml" -H"authorization: bearer $TOKEN" -d@${path_folder}"_VIE_shared_data_interurbain.xml"  "${url_tiamat}services/stop_places/netex?importType=MERGE&forceStopType=ONSTREET_BUS&skipOutput=true"
+UploadNeptuneFile  "_VIE_shared_data_interurbain.xml" "importType=MERGE&forceStopType=ONSTREET_BUS&skipOutput=true"
 #
 ##Landes/XLR
-#curl -XPOST -H"Content-Type: application/xml" -H"authorization: bearer $TOKEN" -d@${path_folder}"_LAN_shared_data.xml"  "${url_tiamat}services/stop_places/netex?importType=MERGE&forceStopType=ONSTREET_BUS&skipOutput=true"
+UploadNeptuneFile "_LAN_shared_data.xml" "importType=MERGE&forceStopType=ONSTREET_BUS&skipOutput=true"
 #
 ##Limousin
-#curl -XPOST -H"Content-Type: application/xml" -H"authorization: bearer $TOKEN" -d@${path_folder}"_LIM_shared_data.xml"  "${url_tiamat}services/stop_places/netex?importType=MERGE&forceStopType=ONSTREET_BUS&skipOutput=true"
+UploadNeptuneFile  "_LAN_shared_data.xml" "importType=MERGE&forceStopType=ONSTREET_BUS&skipOutput=true"
 #
 ##Charente-maritime
-#curl -XPOST -H"Content-Type: application/xml" -H"authorization: bearer $TOKEN" -d@${path_folder}"_CHA_shared_data.xml"  "${url_tiamat}services/stop_places/netex?importType=MERGE&forceStopType=ONSTREET_BUS&skipOutput=true"
+UploadNeptuneFile "_CHA_shared_data.xml" "importType=MERGE&forceStopType=ONSTREET_BUS&skipOutput=true"
 #
 #####################################
 #
 ##SNCF / Intercités
-#curl -XPOST -H"Content-Type: application/xml" -H"authorization: bearer $TOKEN" -d@${path_folder}"_SNC_shared_data_intercites.xml"  "${url_tiamat}services/stop_places/netex?importType=MERGE&forceStopType=RAIL_STATION&skipOutput=true"
+UploadNeptuneFile "_SNC_shared_data_intercites.xml" "importType=MERGE&forceStopType=RAIL_STATION&skipOutput=true"
 #
 ##SNCF / TER
-#curl -XPOST -H"Content-Type: application/xml" -H"authorization: bearer $TOKEN" -d@${path_folder}"_SNC_shared_data_ter.xml"  "${url_tiamat}services/stop_places/netex?importType=MERGE&forceStopType=RAIL_STATION&skipOutput=true"
+UploadNeptuneFile  "_SNC_shared_data_ter.xml" "importType=MERGE&forceStopType=RAIL_STATION&skipOutput=true"
 #
