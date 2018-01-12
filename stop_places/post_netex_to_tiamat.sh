@@ -27,7 +27,7 @@ CreateTempFolder(){
     cd downloaded-files;
 }
 
-UploadGTFSFile(){
+UploadNetexFile(){
     CreateTempFolder;
     GetToken;
     echo && echo "--------------- Send GTFS File: $2 ---------------" ;
@@ -41,53 +41,63 @@ UploadGTFSFile(){
 
 
 ####################################
-# TOPO Places EPCI
-
-#UploadGTFSFile "topo" "naq_topo_epci.xml" "importType=INITIAL&skipOutput=false"
+### TOPO Places EPCI
+#UploadNetexFile "topo" "naq_topo_epci.xml" "importType=INITIAL&skipOutput=false"
 #
+### TOPO PLaces municipalities
+#UploadNetexFile "municipalities" "municipalities.xml" "importType=INITIAL&skipOutput=true"
+
 #####################################
 ## COMMUNAUTE AGGLO
 #
-### Tulle
-#UploadGTFSFile "TUT" "_TUT_shared_data.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=false"
-#
+## Tulle
+#UploadNetexFile "TUT" "_TUT_shared_data.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=false"
+
+
+
+
+
+#TODO : injecter à partir d'ici !!!
+
+
+
 ### Bordeaux Métropole
-#UploadGTFSFile "BME_bus" "_BME_shared_data_bus.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=false"
-#UploadGTFSFile "BME_tram" "_BME_shared_data_tram.xml" "importType=INITIAL&forceStopType=ONSTREET_TRAM&skipOutput=false"
+#UploadNetexFile "BME_bus" "_BME_shared_data_bus.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=false"
+#UploadNetexFile "BME_tram" "_BME_shared_data_tram.xml" "importType=INITIAL&forceStopType=ONSTREET_TRAM&skipOutput=false"
 #
 ### Grand Poitiers
-#UploadGTFSFile "VIT" "_VIT_shared_data.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=false"
+#UploadNetexFile "VIT" "_VIT_shared_data.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=false"
 #
 ### Perigueux Agglo
-#UploadGTFSFile "PER" "_PER_shared_data.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=false"
+#UploadNetexFile "PER" "_PER_shared_data.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=false"
 #
 ### Grand Dax/Couralin
-#UploadGTFSFile "COU" "_COU_shared_data.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=false"
+#UploadNetexFile "COU" "_COU_shared_data.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=false"
 #
 ### Royan
-#UploadGTFSFile "ROY" "_ROY_shared_data.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=false"
+#UploadNetexFile "ROY" "_ROY_shared_data.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=false"
 #
 ### MACS/Yego
-#UploadGTFSFile "YEG" "_YEG_shared_data.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=false"
+#UploadNetexFile "YEG" "_YEG_shared_data.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=false"
 #
 ### Brive
-#UploadGTFSFile "BRI" "_BRI_shared_data.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=false"
+#UploadNetexFile "BRI" "_BRI_shared_data.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=false"
 #
 ### Limoges
-#UploadGTFSFile "LIM" "_LIM_shared_data.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=false"
+#UploadNetexFile "LIM" "_LIM_shared_data.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=false"
 #
 ### La Rochelle
-#UploadGTFSFile "YEL" "_YEL_shared_data.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=false"
-#UploadGTFSFile "RTC" "_RTC_shared_data.xml" "importType=MERGE&forceStopType=ONSTREET_BUS&skipOutput=false"
+#UploadNetexFile "YEL" "_YEL_shared_data.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=false"
+#UploadNetexFile "RTC" "_RTC_shared_data.xml" "importType=MERGE&forceStopType=ONSTREET_BUS&skipOutput=false"
 #
 ### Rochefort
-#UploadGTFSFile "ROC" "_ROC_shared_data.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=false"
+#UploadNetexFile "ROC" "_ROC_shared_data.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=false"
 #
 ### Niort
-#UploadGTFSFile "CAN" "_CAN_shared_data.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=false"
+#UploadNetexFile "CAN" "_CAN_shared_data.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=false"
 #
 ### Val de Garonne - Marmande
-#UploadGTFSFile "VDG" "_VDG_shared_data.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=false"
+#UploadNetexFile "VDG" "_VDG_shared_data.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=false"
 
 #
 #
@@ -97,58 +107,58 @@ UploadGTFSFile(){
 ### FROM SIMs
 ##
 ###Angoulème - STGA
-#UploadGTFSFile "ANG" "_ANG_shared_data.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=false"
+#UploadNetexFile "ANG" "_ANG_shared_data.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=false"
 #
 ###TAC Châtellerault
-#UploadGTFSFile "CHL" "_CHL_shared_data.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=false"
+#UploadNetexFile "CHL" "_CHL_shared_data.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=false"
 #
 ###Cognac
-#UploadGTFSFile "COG" "_COG_shared_data.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=false"
+#UploadNetexFile "COG" "_COG_shared_data.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=false"
 #
 ###Aéroport La Rochelle
-#UploadGTFSFile "APR" "_APR_shared_data.xml" "importType=MERGE&forceStopType=ONSTREET_BUS&skipOutput=false"
+#UploadNetexFile "APR" "_APR_shared_data.xml" "importType=MERGE&forceStopType=ONSTREET_BUS&skipOutput=false"
 #
 ###BAC Royan
-#UploadGTFSFile "BAC" "_BAC_shared_data.xml" "importType=MERGE&forceStopType=FERRY_STOP&skipOutput=false"
+#UploadNetexFile "BAC" "_BAC_shared_data.xml" "importType=MERGE&forceStopType=FERRY_STOP&skipOutput=false"
 #
 ###Aix/Fouras
-#UploadGTFSFile "FAI" "_FAI_shared_data.xml" "importType=INITIAL&forceStopType=FERRY_STOP&skipOutput=false"
+#UploadNetexFile "FAI" "_FAI_shared_data.xml" "importType=INITIAL&forceStopType=FERRY_STOP&skipOutput=false"
 #
 #
 #######################################
 #### DEPARTEMENTS
 
 ### Charente-maritime
-#UploadGTFSFile "CHA" "_CHA_shared_data.xml" "importType=MERGE&forceStopType=ONSTREET_BUS&skipOutput=false"
+#UploadNetexFile "CHA" "_CHA_shared_data.xml" "importType=MERGE&forceStopType=ONSTREET_BUS&skipOutput=false"
 #
 ### Lot-et-Garonne
-#UploadGTFSFile "LGA" "_LGA_shared_data.xml" "importType=MERGE&forceStopType=ONSTREET_BUS&skipOutput=false"
+#UploadNetexFile "LGA" "_LGA_shared_data.xml" "importType=MERGE&forceStopType=ONSTREET_BUS&skipOutput=false"
 #
 ### Transport 64
-#UploadGTFSFile "PAT" "_PAT_shared_data.xml" "importType=MERGE&forceStopType=ONSTREET_BUS&skipOutput=false"
+#UploadNetexFile "PAT" "_PAT_shared_data.xml" "importType=MERGE&forceStopType=ONSTREET_BUS&skipOutput=false"
 #
 ### Landes/XLR
-#UploadGTFSFile "LAN" "_LAN_shared_data.xml" "importType=MERGE&forceStopType=ONSTREET_BUS&skipOutput=false"
+#UploadNetexFile "LAN" "_LAN_shared_data.xml" "importType=MERGE&forceStopType=ONSTREET_BUS&skipOutput=false"
 #
 ### Transgironde
-#UploadGTFSFile "GIR" "_GIR_shared_data.xml" "importType=MERGE&forceStopType=ONSTREET_BUS&skipOutput=false"
+#UploadNetexFile "GIR" "_GIR_shared_data.xml" "importType=MERGE&forceStopType=ONSTREET_BUS&skipOutput=false"
 #
 ### CG23 Creuse
-#UploadGTFSFile "CRE" "_CRE_shared_data.xml" "importType=MERGE&forceStopType=ONSTREET_BUS&skipOutput=false"
+#UploadNetexFile "CRE" "_CRE_shared_data.xml" "importType=MERGE&forceStopType=ONSTREET_BUS&skipOutput=false"
 #
 ### Vienne Interurbain
-#UploadGTFSFile "VIE" "_VIE_shared_data_interurbain.xml" "importType=MERGE&forceStopType=ONSTREET_BUS&skipOutput=false"
+#UploadNetexFile "VIE" "_VIE_shared_data_interurbain.xml" "importType=MERGE&forceStopType=ONSTREET_BUS&skipOutput=false"
 
 
 
 ######################################
 ### SNCF
 #
-###SNCF / Intercités
-UploadGTFSFile "SNC_inter" "_SNC_shared_data_intercites.xml" "importType=INITIAL&forceStopType=RAIL_STATION&skipOutput=false"
-
-##SNCF / TER
-UploadGTFSFile "SNC_ter" "_SNC_shared_data_ter.xml" "importType=INITIAL&forceStopType=RAIL_STATION&skipOutput=false"
+####SNCF / Intercités
+#UploadNetexFile "SNC_inter" "_SNC_shared_data_intercites.xml" "importType=INITIAL&forceStopType=RAIL_STATION&skipOutput=false"
+#
+###SNCF / TER
+#UploadNetexFile "SNC_ter" "_SNC_shared_data_ter.xml" "importType=INITIAL&forceStopType=RAIL_STATION&skipOutput=false"
 #
 #
 
