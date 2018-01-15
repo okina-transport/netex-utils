@@ -30,14 +30,28 @@
                         <xsl:for-each select="kml:kml/kml:Document/kml:Placemark">
                             <TopographicPlace version="1">
                                 <xsl:attribute name="id">
-                                    <xsl:value-of disable-output-escaping="yes" select="concat($prefix, ':TopographicPlace:',kml:ExtendedData/kml:SchemaData/kml:SimpleData[@name='siren_epci'])"/>
+                                    <xsl:value-of disable-output-escaping="yes"
+                                                  select="concat($prefix, ':TopographicPlace:',kml:ExtendedData/kml:SchemaData/kml:SimpleData[@name='siren_epci'])"/>
                                 </xsl:attribute>
+                                <keyList>
+                                    <KeyValue>
+                                        <Key>SIREN</Key>
+                                        <Value><xsl:value-of disable-output-escaping="yes"
+                                                             select="kml:ExtendedData/kml:SchemaData/kml:SimpleData[@name='siren_epci']"/></Value>
+                                    </KeyValue>
+                                </keyList>
                                 <Description>
                                     <xsl:value-of disable-output-escaping="yes" select="kml:ExtendedData/kml:SchemaData/kml:SimpleData[@name='nom_comple']"/>
                                 </Description>
                                 <Descriptor>
-                                    <Name><xsl:value-of disable-output-escaping="yes" select="kml:ExtendedData/kml:SchemaData/kml:SimpleData[@name='nom_comple']"/></Name>
+                                    <Name>
+                                        <xsl:value-of disable-output-escaping="yes"
+                                                      select="kml:ExtendedData/kml:SchemaData/kml:SimpleData[@name='nom_comple']"/>
+                                    </Name>
                                 </Descriptor>
+                                <keyList>
+
+                                </keyList>
                                 <TopographicPlaceType>county</TopographicPlaceType>
                                 <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2" srsName="EPSG:4326" srsDimension="2">
                                     <xsl:attribute name="gml:id">
@@ -61,7 +75,8 @@
 
     <xsl:template match="/kml:MultiGeometry/kml:Polygon/kml:outerBoundaryIs/kml:LinearRing/kml:coordinates" name="polygon">
         <xsl:for-each select="kml:Polygon/kml:outerBoundaryIs/kml:LinearRing/kml:coordinates">
-            <xsl:value-of disable-output-escaping="yes" select="fn:replace(., '(-?\d+\.?[0-9]+([eE][-+]?[0-9]+)?),(-?\d+\.?[0-9]+([eE][-+]?[0-9]+)?)\s?', '$3 $1 ')"/>
+            <xsl:value-of disable-output-escaping="yes"
+                          select="fn:replace(., '(-?\d+\.?[0-9]+([eE][-+]?[0-9]+)?),(-?\d+\.?[0-9]+([eE][-+]?[0-9]+)?)\s?', '$3 $1 ')"/>
         </xsl:for-each>
     </xsl:template>
 </xsl:transform>

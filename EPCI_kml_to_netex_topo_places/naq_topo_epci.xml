@@ -2,7 +2,7 @@
 <PublicationDelivery xmlns="http://www.netex.org.uk/netex"
                      xmlns:kml="http://www.opengis.net/kml/2.2"
                      xmlns:fn="http://www.w3.org/2005/xpath-functions">
-   <PublicationTimestamp>2018-01-12T18:49:58.478+01:00</PublicationTimestamp>
+   <PublicationTimestamp>2018-01-15T17:31:29.971+01:00</PublicationTimestamp>
    <ParticipantRef>NAQ</ParticipantRef>
    <Description/>
    <dataObjects>
@@ -15,10 +15,17 @@
          </FrameDefaults>
          <topographicPlaces>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200034825">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200034825</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CA du Grand Guéret</Description>
                <Descriptor>
                   <Name>CA du Grand Guéret</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -32,10 +39,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200035459">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200035459</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CA d'Agen</Description>
                <Descriptor>
                   <Name>CA d'Agen</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -49,10 +63,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200069755">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200069755</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC du Cellois, Coeur du Poitou, Mellois et du Val de Boutonne</Description>
                <Descriptor>
                   <Name>CC du Cellois, Coeur du Poitou, Mellois et du Val de Boutonne</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -66,10 +87,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200069649">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200069649</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC Chalosse Tursan</Description>
                <Descriptor>
                   <Name>CC Chalosse Tursan</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -83,10 +111,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:241900133">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>241900133</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC de Ventadour - Egletons - Monédières</Description>
                <Descriptor>
                   <Name>CC de Ventadour - Egletons - Monédières</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -100,10 +135,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:243301454">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>243301454</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC Castillon/Pujols</Description>
                <Descriptor>
                   <Name>CC Castillon/Pujols</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -117,10 +159,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:244000543">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>244000543</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC de Mimizan</Description>
                <Descriptor>
                   <Name>CC de Mimizan</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -134,10 +183,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200041051">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200041051</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC Vallée de la Dordogne et Forêt Bessède</Description>
                <Descriptor>
                   <Name>CC Vallée de la Dordogne et Forêt Bessède</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -151,10 +207,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:241600303">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>241600303</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC du Rouillacais</Description>
                <Descriptor>
                   <Name>CC du Rouillacais</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -168,10 +231,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200070506">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200070506</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC Pays de Nexon Monts de Chalus</Description>
                <Descriptor>
                   <Name>CC Pays de Nexon Monts de Chalus</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -185,10 +255,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200041150">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200041150</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC du Terrassonnais en Périgord Noir Thenon Hautefort</Description>
                <Descriptor>
                   <Name>CC du Terrassonnais en Périgord Noir Thenon Hautefort</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -202,10 +279,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200059400">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200059400</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC Porte Océane du Limousin</Description>
                <Descriptor>
                   <Name>CC Porte Océane du Limousin</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -219,10 +303,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200043016">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200043016</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC Val de Charente</Description>
                <Descriptor>
                   <Name>CC Val de Charente</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -236,10 +327,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200066512">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200066512</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC Elan Limousin Avenir Nature</Description>
                <Descriptor>
                   <Name>CC Elan Limousin Avenir Nature</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -253,10 +351,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200070092">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200070092</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CA du Libournais</Description>
                <Descriptor>
                   <Name>CA du Libournais</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -270,10 +375,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200072049">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200072049</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC de Charente Limousine</Description>
                <Descriptor>
                   <Name>CC de Charente Limousine</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -287,10 +399,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:248200016">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>248200016</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC des Deux Rives</Description>
                <Descriptor>
                   <Name>CC des Deux Rives</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -304,10 +423,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200071819">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200071819</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC du Périgord Nontronnais</Description>
                <Descriptor>
                   <Name>CC du Périgord Nontronnais</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -321,10 +447,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:241700640">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>241700640</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CA Royan Atlantique</Description>
                <Descriptor>
                   <Name>CA Royan Atlantique</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -338,10 +471,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:241700459">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>241700459</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC de l'Ile de Ré</Description>
                <Descriptor>
                   <Name>CC de l'Ile de Ré</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -355,10 +495,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:246400337">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>246400337</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC de la Vallée d'Ossau</Description>
                <Descriptor>
                   <Name>CC de la Vallée d'Ossau</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -372,10 +519,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200066744">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200066744</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC Haute-Corrèze Communauté</Description>
                <Descriptor>
                   <Name>CC Haute-Corrèze Communauté</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -389,10 +543,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200069656">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200069656</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC Coeur Haute Lande</Description>
                <Descriptor>
                   <Name>CC Coeur Haute Lande</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -406,10 +567,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200068914">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200068914</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC la Rochefoucauld - Porte du Périgord</Description>
                <Descriptor>
                   <Name>CC la Rochefoucauld - Porte du Périgord</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -423,10 +591,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200040095">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200040095</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC Isle Vern Salembre en Périgord</Description>
                <Descriptor>
                   <Name>CC Isle Vern Salembre en Périgord</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -440,10 +615,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200029734">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200029734</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC des 4b Sud Charente</Description>
                <Descriptor>
                   <Name>CC des 4b Sud Charente</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -457,10 +639,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200068948">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200068948</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC Albret Communauté</Description>
                <Descriptor>
                   <Name>CC Albret Communauté</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -474,10 +663,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200070647">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200070647</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CA Bergeracoise</Description>
                <Descriptor>
                   <Name>CA Bergeracoise</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -491,10 +687,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:243301181">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>243301181</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC Latitude Nord Gironde</Description>
                <Descriptor>
                   <Name>CC Latitude Nord Gironde</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -508,10 +711,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:241700632">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>241700632</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC de Gémozac et de la Saintonge Viticole</Description>
                <Descriptor>
                   <Name>CC de Gémozac et de la Saintonge Viticole</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -525,10 +735,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:243301165">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>243301165</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC Jalle-Eau-Bourde</Description>
                <Descriptor>
                   <Name>CC Jalle-Eau-Bourde</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -542,10 +759,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:244000873">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>244000873</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC des Grands Lacs</Description>
                <Descriptor>
                   <Name>CC des Grands Lacs</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -559,10 +783,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200067288">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200067288</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC du Béarn des Gaves</Description>
                <Descriptor>
                   <Name>CC du Béarn des Gaves</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -576,10 +807,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200067254">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200067254</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CA Pau Béarn Pyrénées</Description>
                <Descriptor>
                   <Name>CA Pau Béarn Pyrénées</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -593,10 +831,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:241700624">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>241700624</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC de l'Ile d'Oléron</Description>
                <Descriptor>
                   <Name>CC de l'Ile d'Oléron</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -610,10 +855,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:243301249">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>243301249</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC du Secteur de Saint Loubes</Description>
                <Descriptor>
                   <Name>CC du Secteur de Saint Loubes</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -627,10 +879,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200070282">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200070282</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC Lavalette Tude Dronne</Description>
                <Descriptor>
                   <Name>CC Lavalette Tude Dronne</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -644,10 +903,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200070514">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200070514</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CA du Grand Cognac</Description>
                <Descriptor>
                   <Name>CA du Grand Cognac</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -661,10 +927,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:243301447">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>243301447</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC Médoc Estuaire</Description>
                <Descriptor>
                   <Name>CC Médoc Estuaire</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -678,10 +951,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200041572">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200041572</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC Dronne et Belle</Description>
                <Descriptor>
                   <Name>CC Dronne et Belle</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -695,10 +975,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200066603">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200066603</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC du Pays de Lubersac-Pompadour</Description>
                <Descriptor>
                   <Name>CC du Pays de Lubersac-Pompadour</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -712,10 +999,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200069599">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200069599</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC Rurales de l'Entre-Deux-Mers</Description>
                <Descriptor>
                   <Name>CC Rurales de l'Entre-Deux-Mers</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -729,10 +1023,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200069763">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200069763</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC du Haut-Poitou</Description>
                <Descriptor>
                   <Name>CC du Haut-Poitou</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -746,10 +1047,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200070720">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200070720</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC Médoc Atlantique</Description>
                <Descriptor>
                   <Name>CC Médoc Atlantique</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -763,10 +1071,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200040814">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200040814</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC Briance Sud Haute Vienne</Description>
                <Descriptor>
                   <Name>CC Briance Sud Haute Vienne</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -780,10 +1095,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:244000857">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>244000857</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC Côte Landes Nature</Description>
                <Descriptor>
                   <Name>CC Côte Landes Nature</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -797,10 +1119,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:248719338">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>248719338</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC Briance Combade</Description>
                <Descriptor>
                   <Name>CC Briance Combade</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -814,10 +1143,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200041440">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200041440</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC de Domme- Villefranche du Périgord</Description>
                <Descriptor>
                   <Name>CC de Domme- Villefranche du Périgord</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -831,10 +1167,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200036572">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200036572</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC Porte d'Aquitaine en Pays de Serres</Description>
                <Descriptor>
                   <Name>CC Porte d'Aquitaine en Pays de Serres</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -848,10 +1191,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200044014">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200044014</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC Creuse Grand Sud</Description>
                <Descriptor>
                   <Name>CC Creuse Grand Sud</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -865,10 +1215,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200067239">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200067239</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC des Luys en Béarn</Description>
                <Descriptor>
                   <Name>CC des Luys en Béarn</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -882,10 +1239,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:241700434">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>241700434</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CA de la Rochelle</Description>
                <Descriptor>
                   <Name>CA de la Rochelle</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -899,10 +1263,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:241927243">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>241927243</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC du Pays d'Uzerche</Description>
                <Descriptor>
                   <Name>CC du Pays d'Uzerche</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -916,10 +1287,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:244000808">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>244000808</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CA Mont de Marsan Agglomération</Description>
                <Descriptor>
                   <Name>CA Mont de Marsan Agglomération</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -933,10 +1311,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:244700464">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>244700464</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC du Pays de Lauzun</Description>
                <Descriptor>
                   <Name>CC du Pays de Lauzun</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -950,10 +1335,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:243301389">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>243301389</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC Médullienne</Description>
                <Descriptor>
                   <Name>CC Médullienne</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -967,10 +1359,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:243301223">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>243301223</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC du Cubzaguais</Description>
                <Descriptor>
                   <Name>CC du Cubzaguais</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -984,10 +1383,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:248719353">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>248719353</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC des Portes de Vassivière</Description>
                <Descriptor>
                   <Name>CC des Portes de Vassivière</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -1001,10 +1407,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200034197">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200034197</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC de Montaigne Montravel et Gurson</Description>
                <Descriptor>
                   <Name>CC de Montaigne Montravel et Gurson</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -1018,10 +1431,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:243301439">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>243301439</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC des Portes de l'Entre Deux Mers</Description>
                <Descriptor>
                   <Name>CC des Portes de l'Entre Deux Mers</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -1035,10 +1455,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200071942">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200071942</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC Haut Limousin en Marche</Description>
                <Descriptor>
                   <Name>CC Haut Limousin en Marche</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -1052,10 +1479,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200067593">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200067593</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC Chénérailles, Auzances/Bellegarde et Haut Pays Marchois</Description>
                <Descriptor>
                   <Name>CC Chénérailles, Auzances/Bellegarde et Haut Pays Marchois</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -1069,10 +1503,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:244700449">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>244700449</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC du Pays de Duras</Description>
                <Descriptor>
                   <Name>CC du Pays de Duras</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -1086,10 +1527,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:243301215">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>243301215</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC du Créonnais</Description>
                <Descriptor>
                   <Name>CC du Créonnais</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -1103,10 +1551,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:243301355">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>243301355</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC des Coteaux Bordelais</Description>
                <Descriptor>
                   <Name>CC des Coteaux Bordelais</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -1120,10 +1575,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:248719288">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>248719288</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC du Val de Vienne</Description>
                <Descriptor>
                   <Name>CC du Val de Vienne</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -1137,10 +1599,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200039204">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200039204</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC de Lacq-Orthez</Description>
                <Descriptor>
                   <Name>CC de Lacq-Orthez</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -1154,10 +1623,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200041416">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200041416</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC Airvaudais-Val du Thouet</Description>
                <Descriptor>
                   <Name>CC Airvaudais-Val du Thouet</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -1171,10 +1647,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:243301405">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>243301405</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC du Val de l'Eyre</Description>
                <Descriptor>
                   <Name>CC du Val de l'Eyre</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -1188,10 +1671,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:248600413">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>248600413</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CA du Pays Châtelleraudais</Description>
                <Descriptor>
                   <Name>CA du Pays Châtelleraudais</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -1205,10 +1695,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:248719312">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>248719312</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CA Limoges Métropole</Description>
                <Descriptor>
                   <Name>CA Limoges Métropole</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -1222,10 +1719,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200041523">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200041523</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC de la Haute Saintonge</Description>
                <Descriptor>
                   <Name>CC de la Haute Saintonge</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -1239,10 +1743,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200070035">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200070035</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC du Civraisien en Poitou</Description>
                <Descriptor>
                   <Name>CC du Civraisien en Poitou</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -1256,10 +1767,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:244000865">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>244000865</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC Maremne Adour Côte Sud</Description>
                <Descriptor>
                   <Name>CC Maremne Adour Côte Sud</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -1273,10 +1791,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:244000675">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>244000675</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CA du Grand Dax</Description>
                <Descriptor>
                   <Name>CA du Grand Dax</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -1290,10 +1815,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200036473">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200036473</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CA de Saintes</Description>
                <Descriptor>
                   <Name>CA de Saintes</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -1307,10 +1839,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200067262">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200067262</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC du Pays d'Oloron et des Vallées du Haut Béarn</Description>
                <Descriptor>
                   <Name>CC du Pays d'Oloron et des Vallées du Haut Béarn</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -1324,10 +1863,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200068930">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200068930</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC Fumel Vallée du Lot</Description>
                <Descriptor>
                   <Name>CC Fumel Vallée du Lot</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -1341,10 +1887,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200069417">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200069417</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC Pays d'Orthe et Arrigans</Description>
                <Descriptor>
                   <Name>CC Pays d'Orthe et Arrigans</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -1358,10 +1911,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200069094">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200069094</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC Isle et Crempse en Périgord</Description>
                <Descriptor>
                   <Name>CC Isle et Crempse en Périgord</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -1375,10 +1935,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:241700517">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>241700517</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC Charente-Arnoult-Coeur de Saintonge</Description>
                <Descriptor>
                   <Name>CC Charente-Arnoult-Coeur de Saintonge</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -1392,10 +1959,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:244000659">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>244000659</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC du Seignanx</Description>
                <Descriptor>
                   <Name>CC du Seignanx</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -1409,10 +1983,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200041317">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200041317</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CA du Niortais</Description>
                <Descriptor>
                   <Name>CA du Niortais</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -1426,10 +2007,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200034833">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200034833</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC des Bastides Dordogne-Périgord</Description>
                <Descriptor>
                   <Name>CC des Bastides Dordogne-Périgord</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -1443,10 +2031,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200067510">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200067510</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC Pays Dunois, Pays Sostranien, Bénévent/Grand-Bourg</Description>
                <Descriptor>
                   <Name>CC Pays Dunois, Pays Sostranien, Bénévent/Grand-Bourg</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -1460,10 +2055,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200044394">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200044394</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC du Réolais en Sud Gironde</Description>
                <Descriptor>
                   <Name>CC du Réolais en Sud Gironde</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -1477,10 +2079,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200041614">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200041614</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC Aunis Sud</Description>
                <Descriptor>
                   <Name>CC Aunis Sud</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -1494,10 +2103,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200030674">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200030674</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CA Val de Garonne Agglomération</Description>
                <Descriptor>
                   <Name>CA Val de Garonne Agglomération</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -1511,10 +2127,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200041168">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200041168</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC de la Vallée de l'homme</Description>
                <Descriptor>
                   <Name>CC de la Vallée de l'homme</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -1528,10 +2151,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200040400">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200040400</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC du Pays Ribéracois</Description>
                <Descriptor>
                   <Name>CC du Pays Ribéracois</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -1545,10 +2175,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200035541">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200035541</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC des Landes d'Armagnac</Description>
                <Descriptor>
                   <Name>CC des Landes d'Armagnac</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -1562,10 +2199,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200069854">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200069854</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CA Grand-Poitiers</Description>
                <Descriptor>
                   <Name>CA Grand-Poitiers</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -1579,10 +2223,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:243301264">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>243301264</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC de Montesquieu</Description>
                <Descriptor>
                   <Name>CC de Montesquieu</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -1596,10 +2247,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200040244">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200040244</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CA du Bocage Bressuirais</Description>
                <Descriptor>
                   <Name>CA du Bocage Bressuirais</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -1613,10 +2271,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200041333">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200041333</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC de Parthenay-Gâtine</Description>
                <Descriptor>
                   <Name>CC de Parthenay-Gâtine</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -1630,10 +2295,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200041762">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200041762</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CA Rochefort Océan</Description>
                <Descriptor>
                   <Name>CA Rochefort Océan</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -1647,10 +2319,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200067106">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200067106</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CA du Pays Basque</Description>
                <Descriptor>
                   <Name>CA du Pays Basque</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -1664,10 +2343,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:248700189">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>248700189</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC du Pays de Saint Yrieix</Description>
                <Descriptor>
                   <Name>CC du Pays de Saint Yrieix</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -1681,10 +2367,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200040889">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200040889</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC de Portes Sud Périgord</Description>
                <Descriptor>
                   <Name>CC de Portes Sud Périgord</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -1698,10 +2391,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:248600447">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>248600447</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC du Pays Loudunais</Description>
                <Descriptor>
                   <Name>CC du Pays Loudunais</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -1715,10 +2415,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200041556">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200041556</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC Portes de la Creuse en Marche</Description>
                <Descriptor>
                   <Name>CC Portes de la Creuse en Marche</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -1732,10 +2439,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200040830">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200040830</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC du Pays de Fénelon</Description>
                <Descriptor>
                   <Name>CC du Pays de Fénelon</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -1749,10 +2463,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200040384">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200040384</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC Isle Double Landais</Description>
                <Descriptor>
                   <Name>CC Isle Double Landais</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -1766,10 +2487,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200071827">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200071827</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CA du Grand Angoulême</Description>
                <Descriptor>
                   <Name>CA du Grand Angoulême</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -1783,10 +2511,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:242401024">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>242401024</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC du Pays de Lanouaille</Description>
                <Descriptor>
                   <Name>CC du Pays de Lanouaille</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -1800,10 +2535,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200066751">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200066751</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC Xaintrie Val'dordogne</Description>
                <Descriptor>
                   <Name>CC Xaintrie Val'dordogne</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -1817,10 +2559,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200043982">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200043982</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC du Bazadais</Description>
                <Descriptor>
                   <Name>CC du Bazadais</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -1834,10 +2583,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200043628">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200043628</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC des Vallées du Clain</Description>
                <Descriptor>
                   <Name>CC des Vallées du Clain</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -1851,10 +2607,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:247900798">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>247900798</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC du Thouarsais</Description>
                <Descriptor>
                   <Name>CC du Thouarsais</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -1868,10 +2631,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:243300811">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>243300811</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC de l'Estuaire - Canton de Saint Ciers Sur Gironde</Description>
                <Descriptor>
                   <Name>CC de l'Estuaire - Canton de Saint Ciers Sur Gironde</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -1885,10 +2655,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:244701355">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>244701355</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC des Coteaux et Landes de Gascogne</Description>
                <Descriptor>
                   <Name>CC des Coteaux et Landes de Gascogne</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -1902,10 +2679,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:244000691">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>244000691</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC du Pays Morcenais</Description>
                <Descriptor>
                   <Name>CC du Pays Morcenais</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -1919,10 +2703,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:244000824">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>244000824</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC du Pays Grenadois</Description>
                <Descriptor>
                   <Name>CC du Pays Grenadois</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -1936,10 +2727,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200066520">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200066520</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC Ouest Limousin</Description>
                <Descriptor>
                   <Name>CC Ouest Limousin</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -1953,10 +2751,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200067544">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200067544</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC Pays de Boussac, Carrefour des Quatre Provinces, Evaux-Les-Bains/Chambon-Sur-Voueize</Description>
                <Descriptor>
                   <Name>CC Pays de Boussac, Carrefour des Quatre Provinces, Evaux-Les-Bains/Chambon-Sur-Voueize</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -1970,10 +2775,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200069631">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200069631</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC Terres de Chalosse</Description>
                <Descriptor>
                   <Name>CC Terres de Chalosse</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -1987,10 +2799,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200027217">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200027217</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC Sarlat-Périgord Noir</Description>
                <Descriptor>
                   <Name>CC Sarlat-Périgord Noir</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -2004,10 +2823,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:248719262">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>248719262</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC Gartempe - Saint Pardoux</Description>
                <Descriptor>
                   <Name>CC Gartempe - Saint Pardoux</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -2021,10 +2847,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200072023">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200072023</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC Coeur de Charente</Description>
                <Descriptor>
                   <Name>CC Coeur de Charente</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -2038,10 +2871,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200043172">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200043172</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CA du Bassin de Brive</Description>
                <Descriptor>
                   <Name>CA du Bassin de Brive</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -2055,10 +2895,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200036523">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200036523</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC des Bastides en Haut Agenais Périgord</Description>
                <Descriptor>
                   <Name>CC des Bastides en Haut Agenais Périgord</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -2072,10 +2919,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200069995">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200069995</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC Médoc Coeur de Presqu'ile</Description>
                <Descriptor>
                   <Name>CC Médoc Coeur de Presqu'ile</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -2089,10 +2943,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:243300316">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>243300316</Value>
+                  </KeyValue>
+               </keyList>
                <Description>Bordeaux Métropole</Description>
                <Descriptor>
                   <Name>Bordeaux Métropole</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -2106,10 +2967,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:244000766">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>244000766</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC du Pays Tarusate</Description>
                <Descriptor>
                   <Name>CC du Pays Tarusate</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -2123,10 +2991,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200023794">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200023794</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC de Blaye</Description>
                <Descriptor>
                   <Name>CC de Blaye</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -2140,10 +3015,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200023307">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200023307</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CA du Grand Villeneuvois</Description>
                <Descriptor>
                   <Name>CA du Grand Villeneuvois</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -2157,10 +3039,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200072106">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200072106</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC Adour Madiran</Description>
                <Descriptor>
                   <Name>CC Adour Madiran</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -2174,10 +3063,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200040392">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200040392</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CA le Grand Périgueux</Description>
                <Descriptor>
                   <Name>CA le Grand Périgueux</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -2191,10 +3087,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:241927201">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>241927201</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CA Tulle Agglo</Description>
                <Descriptor>
                   <Name>CA Tulle Agglo</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -2208,10 +3111,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:243301504">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>243301504</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC du Bassin d'Arcachon Nord Atlantique (Coban Atlantique)</Description>
                <Descriptor>
                   <Name>CC du Bassin d'Arcachon Nord Atlantique (Coban Atlantique)</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -2225,10 +3135,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200067296">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200067296</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC du Nord Est Béarn</Description>
                <Descriptor>
                   <Name>CC du Nord Est Béarn</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -2242,10 +3159,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200035533">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200035533</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC du Grand Saint Emilonnais</Description>
                <Descriptor>
                   <Name>CC du Grand Saint Emilonnais</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -2259,10 +3183,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:246401756">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>246401756</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC Pays de Nay</Description>
                <Descriptor>
                   <Name>CC Pays de Nay</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -2276,10 +3207,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:244000881">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>244000881</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC Coteaux et Vallées des Luys</Description>
                <Descriptor>
                   <Name>CC Coteaux et Vallées des Luys</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -2293,10 +3231,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:243300563">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>243300563</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CA Bassin d'Arcachon Sud-Pôle Atlantique (Cobas)</Description>
                <Descriptor>
                   <Name>CA Bassin d'Arcachon Sud-Pôle Atlantique (Cobas)</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -2310,10 +3255,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:243301371">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>243301371</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC du Pays Foyen</Description>
                <Descriptor>
                   <Name>CC du Pays Foyen</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -2327,10 +3279,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:242400935">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>242400935</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC du Pays de Saint Aulaye</Description>
                <Descriptor>
                   <Name>CC du Pays de Saint Aulaye</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -2344,10 +3303,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200043974">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200043974</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC du Sud Gironde</Description>
                <Descriptor>
                   <Name>CC du Sud Gironde</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -2361,10 +3327,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200068922">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200068922</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC du Confluent et des Coteaux de Prayssas</Description>
                <Descriptor>
                   <Name>CC du Confluent et des Coteaux de Prayssas</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -2378,10 +3351,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200041499">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200041499</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC Aunis Atlantique</Description>
                <Descriptor>
                   <Name>CC Aunis Atlantique</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -2395,10 +3375,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200070043">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200070043</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC Vienne et Gartempe</Description>
                <Descriptor>
                   <Name>CC Vienne et Gartempe</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -2412,10 +3399,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:244701405">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>244701405</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC Lot et Tolzac</Description>
                <Descriptor>
                   <Name>CC Lot et Tolzac</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -2429,10 +3423,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:241700699">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>241700699</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC du Bassin de Marennes</Description>
                <Descriptor>
                   <Name>CC du Bassin de Marennes</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -2446,10 +3447,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:248719361">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>248719361</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC de Noblat</Description>
                <Descriptor>
                   <Name>CC de Noblat</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -2463,10 +3471,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200041689">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200041689</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC Vals de Saintonge</Description>
                <Descriptor>
                   <Name>CC Vals de Saintonge</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -2480,10 +3495,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200041994">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200041994</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC Haut Val de Sèvre</Description>
                <Descriptor>
                   <Name>CC Haut Val de Sèvre</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -2497,10 +3519,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200067189">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200067189</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC Ciate, Bourganeuf/Royère-De-Vassivière</Description>
                <Descriptor>
                   <Name>CC Ciate, Bourganeuf/Royère-De-Vassivière</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -2514,10 +3543,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200066645">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200066645</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC Vézère-Monédières-Millesources</Description>
                <Descriptor>
                   <Name>CC Vézère-Monédières-Millesources</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -2531,10 +3567,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200066769">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200066769</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC Midi Corrézien</Description>
                <Descriptor>
                   <Name>CC Midi Corrézien</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -2548,10 +3591,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200069748">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200069748</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC Val de Gâtine</Description>
                <Descriptor>
                   <Name>CC Val de Gâtine</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -2565,10 +3615,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:200069581">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>200069581</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC de Podensac, des Coteaux de Garonne et de Lestiac-Sur-Garonne,paillet,rions</Description>
                <Descriptor>
                   <Name>CC de Podensac, des Coteaux de Garonne et de Lestiac-Sur-Garonne,paillet,rions</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -2582,10 +3639,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:242400752">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>242400752</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC des Marchés du Périg Or Limousin, Thiviers-Jumilhac</Description>
                <Descriptor>
                   <Name>CC des Marchés du Périg Or Limousin, Thiviers-Jumilhac</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -2599,10 +3663,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:243301397">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>243301397</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC du Fronsadais</Description>
                <Descriptor>
                   <Name>CC du Fronsadais</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"
@@ -2616,10 +3687,17 @@
                </gml:Polygon>
             </TopographicPlace>
             <TopographicPlace version="1" id="NAQ:TopographicPlace:244000774">
+               <keyList>
+                  <KeyValue>
+                     <Key>SIREN</Key>
+                     <Value>244000774</Value>
+                  </KeyValue>
+               </keyList>
                <Description>CC du Pays de Villeneuve en Armagnac Landais</Description>
                <Descriptor>
                   <Name>CC du Pays de Villeneuve en Armagnac Landais</Name>
                </Descriptor>
+               <keyList/>
                <TopographicPlaceType>county</TopographicPlaceType>
                <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
                             srsName="EPSG:4326"

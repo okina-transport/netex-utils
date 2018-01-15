@@ -33,6 +33,13 @@
                                     <xsl:value-of disable-output-escaping="yes"
                                                   select="concat($prefix, ':TopographicPlace:',kml:ExtendedData/kml:SchemaData/kml:SimpleData[@name='insee_com'])"/>
                                 </xsl:attribute>
+                                <keyList>
+                                    <KeyValue>
+                                        <Key>SIREN</Key>
+                                        <Value><xsl:value-of disable-output-escaping="yes"
+                                                             select="kml:ExtendedData/kml:SchemaData/kml:SimpleData[@name='insee_com']"/></Value>
+                                    </KeyValue>
+                                </keyList>
                                 <Description>
                                     <xsl:value-of disable-output-escaping="yes" select="kml:ExtendedData/kml:SchemaData/kml:SimpleData[@name='nom_com']"/>
                                 </Description>
