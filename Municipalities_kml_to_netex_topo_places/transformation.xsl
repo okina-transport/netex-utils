@@ -35,7 +35,7 @@
                                 </xsl:attribute>
                                 <keyList>
                                     <KeyValue>
-                                        <Key>SIREN</Key>
+                                        <Key>INSEE</Key>
                                         <Value><xsl:value-of disable-output-escaping="yes"
                                                              select="kml:ExtendedData/kml:SchemaData/kml:SimpleData[@name='insee_com']"/></Value>
                                     </KeyValue>
