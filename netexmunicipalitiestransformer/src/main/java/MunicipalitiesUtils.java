@@ -52,7 +52,7 @@ public class MunicipalitiesUtils {
         });
 
 
-        FileWriter writer = new FileWriter("/home/gfora/dev/workspaces/netex-utils/Municipalities_kml_to_netex_topo_places/municipalities_NAQ.xml");
+        FileWriter writer = new FileWriter("/home/gfora/dev/workspaces/netex-utils/Municipalities_kml_to_netex_topo_places/municipalities_ecpi.xml");
         XMLOutputter outputter = new XMLOutputter();
         outputter.setFormat(Format.getPrettyFormat());
         outputter.output(documentMunicipalities, writer);
