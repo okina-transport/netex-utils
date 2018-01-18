@@ -41,17 +41,17 @@ UploadNetexFile(){
 
 
 ####################################
-### TOPO Places EPCI
+## TOPO Places EPCI
 #UploadNetexFile "topo" "naq_topo_epci.xml" "importType=INITIAL&skipOutput=false"
-#
-### TOPO PLaces municipalities
-#UploadNetexFile "municipalities" "municipalities.xml" "importType=INITIAL&skipOutput=true"
 
-#####################################
-## COMMUNAUTE AGGLO
-#
+## TOPO PLaces municipalities
+UploadNetexFile "municipalities_ecpi" "municipalities_ecpi.xml" "importType=INITIAL&skipOutput=true"
+
+######################################
+### COMMUNAUTE AGGLO
+##
 ## Tulle
-#UploadNetexFile "TUT" "_TUT_shared_data.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=false"
+UploadNetexFile "TUT" "_TUT_shared_data.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=false"
 
 ## Bordeaux Métropole
 UploadNetexFile "BME_bus" "_BME_shared_data_bus.xml" "importType=INITIAL&forceStopType=ONSTREET_BUS&skipOutput=false"
