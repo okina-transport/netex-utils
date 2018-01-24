@@ -76,7 +76,7 @@
     <xsl:template match="/kml:MultiGeometry/kml:Polygon/kml:outerBoundaryIs/kml:LinearRing/kml:coordinates" name="polygon">
         <xsl:for-each select="kml:Polygon/kml:outerBoundaryIs/kml:LinearRing/kml:coordinates">
             <xsl:value-of disable-output-escaping="yes"
-                          select="fn:replace(., '(-?\d+\.?[0-9]+([eE][-+]?[0-9]+)?),(-?\d+\.?[0-9]+([eE][-+]?[0-9]+)?)\s?', '$3 $1 ')"/>
+                          select="fn:replace(., '(-?\d+\.?[0-9]+([eE][-+]?[0-9]+)?),(-?\d+\.?[0-9]+([eE][-+]?[0-9]+)?)\s*', '$3 $1 ')"/>
         </xsl:for-each>
     </xsl:template>
 </xsl:transform>
