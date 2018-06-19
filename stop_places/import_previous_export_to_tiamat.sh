@@ -1,14 +1,16 @@
 #!/usr/bin/env bash
 
-url_tiamat='https://tiamat-rmr.nouvelle-aquitaine.pro/services/admin/netex/restoring_import?';
+#url_tiamat='https://tiamat-rmr.nouvelle-aquitaine.pro/services/admin/netex/restoring_import?';
+#url_tiamat='https://tiamat-rmr.nouvelle-aquitaine.pro/services/stop_places/netex?';
+url_tiamat='https://entur.okina.fr/services/admin/netex/restoring_import?';
+#url_tiamat='https://entur.okina.fr/services/stop_places/netex?';
+
 url_file_hosted_server='http://naq-dev01.sysnove.net:4567/netex-data';
 
 username="$1";
 password="$2";
 username_file_hosted_server="$3";
 password_file_hosted_server="$4";
-
-mkdir -p netex_output_from_tiamat;
 
 GetToken(){
     RESULT=`curl --data "grant_type=password&client_id=Tiamat&username="${username}"&password="${password} https://auth-rmr.nouvelle-aquitaine.pro/auth/realms/Naq/protocol/openid-connect/token`;
@@ -39,4 +41,5 @@ UploadNetexFile(){
     DeleteTempFolder;
 }
 
-UploadNetexFile "tiamat-export-20180118-101032-567677" ""
+# topo places seulement avec communes, CA, et départements.
+UploadNetexFile "tiamat-export-20180125-100423-568220" "importType=MERGE"
